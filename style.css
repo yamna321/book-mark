@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contain{
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.logo{
+    padding-top: 5%;
+}
+.contain ul{
+    display: flex;
+    gap: 3rem;
+    float: right;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+.contain li{
+    list-style: none;
+}
+.contain a{
+    text-decoration: none;
+    color: black;
+}
+.contain button{
+    padding: 10px 23px;
+    background-color: rgb(224, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+/* hero-page */
+.hero-page{
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    padding-top: 10%;
+    margin-left: 24%;
+    font-weight: normal;
+}
+p{
+    font-size: 1.4rem;
+    color: rgb(116, 121, 121);
+    width: 20%;
+    margin-left: 24%;
+}
+
+.hero-page img{
+   float: right;
+   padding-top: 10%;
+   margin-right: 10%;
+}
+.btn{
+    padding: 15px 25px;
+    font-size: 1rem;
+    border: 1px solid rgb(93, 93, 243);
+    background-color: rgb(93, 93, 243);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 24%;
+    text-transform: capitalize;
+    margin-top: 1%;
+   
+}
+.btn1{
+    padding: 15px 25px;
+    font-size: 1rem;
+    background-color: rgb(235, 229, 229);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    text-transform: capitalize;
+    margin-left: 1%;
+}
+.btn:hover{
+    background-color: rgb(235, 229, 229);
+    color: black;
+    border: none;
+}
+.btn1:hover{
+    background-color: rgb(93, 93, 243);
+    color: white;
+}
+.features{
+    width: 100%;
+    background-color: rgb(241, 248, 248);
+}
+.features h1{
+    font-size: 2rem;
+    padding-left: 20%;
+}
+.features H3{
+   font-size: 1.2rem;
+   color: rgb(116, 121, 121);  
+   margin-right: 15%;
+}
